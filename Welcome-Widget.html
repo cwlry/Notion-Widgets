@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Bebas+Neue" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans:wght@400;600;700&display=swap" rel="stylesheet">"
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>greeting2</title>
@@ -15,7 +15,7 @@
         /*CSS RESETS*/
 
 body{
-    background-color: #fff;
+    background-color: #191919;
     line-height: 1.6;
 
 }
@@ -46,7 +46,7 @@ h1 {
     width: 85vw;
     color: #2D9964;
     display: inline-block;
-    box-shadow: 2px 2px 1px 0px #330835;
+    box-shadow: 2px 2px 1px 0px #0e1210;
 }
 
 .card:hover {
@@ -129,11 +129,11 @@ else{
 }
 hrs = today.getHours();
 if (hrs < 12)
-        greet = 'Good Morning, Ani';
+        greet = 'Good Morning,  Ani';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoo, Ani';
+        greet = 'Good Afternoon,  Ani';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening, Ani';
+        greet = 'Good Evening,  Ani';
 // console.log(today.toLocaleTimeString());
 document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
